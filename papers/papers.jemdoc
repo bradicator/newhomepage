@@ -1,0 +1,5 @@
+# jemdoc: menu{MENU}{software/index.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+= Papers
+
+- [https://arxiv.org/abs/1706.08519 On conditional parity as a notion of non-discrimination in machine learning], Ya'acov Ritov, Yuekai Sun, Ruofei Zhao

@@ -2,33 +2,19 @@
 # jemdoc: addcss{../jemdoc.css}
 = Personal
 
-- [https://www.youtube.com/watch?v=c7h_qXuDAeU NUS Choir].
-
-#[https://www.youtube.com/watch?v=fp9KsTXg7-I NUS Choir]. 
-
-== EDA
-
-- Some data projects I did.
-[https://Pill-gz.github.io See here]
+~~~
+{}{img_left}{qrcode.jpg}{}{150}{}{}
+A blog on wechat I update sporadically.
+~~~
 
 
-== Links
-
-- [http://user2016.org/ useR!2016]
-- [https://www.gnu.org/philosophy/philosophy.html Use Linux]
-- [https://github.com/dmlc/mxnet mxnet (I know almost nothing; if you do, teach me)]
-- [https://www.rstudio.com/ Rstudio]
-- [https://plot.ly/ Plotly (amazing interactive plots)]
-- [https://github.com/yihui/printr printr (prints help pages with knitr)]
-- [https://www.stat.ubc.ca/~jenny/STAT545A/topic10_tablesCSS.html Fixing the annoying Rmarkdown table width default]
 
 == Quotes
 
 ~~~
 
-"I have to return some videotapes" --Patrick
-
-"Wubalubadubdub" --Rick
+"Keep good work ethic and stay out of trouble." -- Kwahi Leonard's advice to teenagers 
+who aspire to make it to NBA
 
 ~~~
 
