@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{software/index.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+= Style Transfer with Neural Networks
+
+Here is an easy-to-use, lightweight style transfer implementation. It runs on CPU and takes less than 1 minute to process an image on my 2014 macbook pro. The codes are adapted from Assignment 3 of [http://cs231n.stanford.edu/ Stanford cs231n]. Details can be found on my [https://github.com/bradicator/style_transfer github page].
+
+== Examples
+Here is what happens when the building statistics department is in (West Hall) meets Edvard Munch's [https://en.wikipedia.org/wiki/ The_Scream] and Vincent ban Gogh's [https://en.wikipedia.org/wiki/The_Starry_Night The Starry Night].
+~~~
+{}{img_left}{scream2.jpg}{}{600}{}{scream_out.jpg}
+~~~
+
+~~~
+{}{img_left}{starry2.jpg}{}{600}{}{starry_out.jpg}
+~~~
