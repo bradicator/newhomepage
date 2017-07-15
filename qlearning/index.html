@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="../jemdoc.css" type="text/css" />
+<title>Deep Q-Learning </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Info&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="menu-item"><a href="../index.html">Main</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="../papers/papers.html">Papers</a></div>
+<div class="menu-category">Other</div>
+<div class="menu-item"><a href="../personal/index.html">Personal</a></div>
+<div class="menu-item"><a href="../neural_style/index.html">Neural&nbsp;Style</a></div>
+<div class="menu-item"><a href="../qlearning/index.html">Q-Learning</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Deep Q-Learning </h1>
+</div>
+<p>Here is an agent I trained with <a href="https://github.com/openai/baselines">Baselines</a> using deep Q-learning introduced in <a href="http://www.davidqiu.com:8888/research/nature14236.pdf">Human-level control through deep reinforcement learning</a>. This agent, receiving as input only pixels and game score, learned to play Breakout at human level.</p>
+<h2>Results</h2>
+<p>Here is how the agent performs at various stages of the training process. Each episode corresponds to one &lsquo;&lsquo;life&rsquo;&rsquo; in the game of breakout. The learning process is rather inefficient in my opinion. The bottom right figure took 2 million episodes and 12 hours on an eight-core 2.60 GHz Intel Xeon E5-2670 processor, and learning seems to be stagnant after a certain amount of episodes, because the agent on the right doesn't seem to out-perform the agent in the middle by any means. Besides, the agents behave very differently from human players, and lack traditional &lsquo;&lsquo;intelligence&rsquo;&rsquo; expected in a breakout game such as position anticipation, using the middle of the bar for speed control. </p>
+<table style="width:90%">
+  <tr>
+    <td>0.4m episodes</td>
+    <td>0.8m episodes</td> 
+    <td>2m episodes</td>
+  </tr>
+  <tr>
+    <td><embed src="bo40_2hours.mp4" autostart="true" height="200" width="160" /></td>
+    <td><embed src="bo80_5hours.mp4" autostart="false" height="200" width="160" /></td> 
+    <td><embed src="pong200.mp4" autostart="false" height="200" width="160" /></td>
+  </tr>
+</table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2017-07-15 16:29:21 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
