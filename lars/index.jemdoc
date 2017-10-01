@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU}{lars/index.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+= Least Angle Regression
+
+An R Shiny app showing how correlations between predictors and residuals change in LARS.
+
+~~~
+{}{raw}
+
+<iframe src="https://bradicator.shinyapps.io/lars/" style="border: none; width: 800px; height: 500px"></iframe>
+~~~
