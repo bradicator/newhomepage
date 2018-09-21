@@ -1,5 +1,23 @@
 # jemdoc: menu{MENU}{software/index.html}{../}
 # jemdoc: addcss{../jemdoc.css}
-= Papers
+= Papers and Preprints
 
-- [https://arxiv.org/abs/1706.08519 On conditional parity as a notion of non-discrimination in machine learning], Ya'acov Ritov, Yuekai Sun, Ruofei Zhao
+- [https://arxiv.org/abs/1706.08519 On conditional parity as a notion of non-discrimination in machine learning] \n
+Ya'acov Ritov, Yuekai Sun, Ruofei Zhao, 2017 \n
+To appear in /Statistical Science/.
+
+- Measuring Adverse Event Risk with Exposure Adjusted Incidence Rate in Clinical Trials with Treatment Crossover\n
+Ruofei Zhao, Yunxia Sui, Yihan Li, Xin Wang, 2018 \n
+Submitted to /Pharmaceutical Statistics/.
+
+- Statistical Convergence of EM on General Gaussian Mixture Models \n
+Ruofei Zhao, Yuanzhi Li, Yuekai Sun, 2018 \n
+Submitted to /AISTATS 2019/.
+
+- Online Low-Rank Reconstruction for Matrix Streams with Application to Network Traffic Monitoring \n
+Zheng Gao, Ruofei Zhao, 2018 \n
+/In preparation/.
+
+- An Inexact Proximal Quasi-Newton Method with Applications to High Dimensional Models \n
+Ruofei Zhao, Yuekai Sun, 2018 \n
+/In preparation/.
